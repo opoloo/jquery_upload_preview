@@ -55,93 +55,9 @@ You're free to customize the CSS and HTML for the input, preview & label fields.
 
 ***
 
-## Image File Example
+## Examples
 
-    <style type="text/css">
-    #image-preview {
-      width: 400px;
-      height: 400px;
-      position: relative;
-      overflow: hidden;
-      background-color: #ffffff;
-      color: #ecf0f1;
-      input {
-        line-height: 200px;
-        font-size: 200px;
-        position: absolute;
-        opacity: 0;
-        z-index: 10;
-      }
-      label {
-        position: absolute;
-        z-index: 5;
-        opacity: 0.8;
-        cursor: pointer;
-        background-color: #bdc3c7;
-        width: 200px;
-        height: 50px;
-        font-size: 20px;
-        line-height: 50px;
-        text-transform: uppercase;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        text-align: center;
-      }
-    }
-    </style>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-      $.uploadPreview({
-        input_field: "#image-upload",
-        preview_box: "#image-preview",
-        label_field: "#image-label"
-      });
-    });
-    </script>
-
-    <div id="image-preview">
-      <label for="image-upload" id="image-label">Choose File</label>
-      <input type="file" name="image" id="image-upload" />
-    </div>
-
-***
-
-## Audio File Example
-
-    <style type="text/css">
-    #audio-preview {
-      background: #ffffff;
-      width: auto;
-      padding: 20px;
-      display: inline-block;
-    }
-
-    #audio-upload {
-      cursor: pointer;
-      background-color: #bdc3c7;
-      color: #ecf0f1;
-      padding: 20px;
-      font-size: 20px;
-      text-transform: uppercase;
-    }
-    </style>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-      $.uploadPreview({
-        input_field: "#audio-upload",
-        preview_box: "#audio-preview",
-        no_label: true
-      });
-    });
-    </script>
-
-    <div id="audio-preview">No file selected</div><br />
-    <input type="file" name="audio" id="audio-upload" />
+Please download the <tt>index.html</tt> to see some examples.
 
 ***
 
