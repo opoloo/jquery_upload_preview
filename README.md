@@ -8,14 +8,13 @@ This jQuery plugin provides an easy way to preview your uploads before they're a
 
 ## How it works?
 
-To get access to the not uploaded data, we can use the HTML5 file reader api. This api provides reading local files. This step is pretty important, because we need to this data in order to show it in the browser window. To get more information about the file reader, you can read the (offical documentation) [http://www.w3.org/TR/FileAPI/].
+To get access to the not uploaded data, we can use the HTML5 file reader api. This api provides reading local files. This step is pretty important, because we need to this data in order to show it in the browser window. To get more information about the file reader, you can read the (offical documentation)[http://www.w3.org/TR/FileAPI/].
 
 ***
 
 ## Download
 
-jquery.uploadPreview.js (2.5 kb)
-jquery.uploadPreview.min.js (1.3 kb)
+Go to <tt>assets/js/</tt> folder.
 
 ***
 
