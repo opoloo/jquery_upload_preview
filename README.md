@@ -57,7 +57,7 @@ You're free to customize the CSS and HTML for the input, preview & label fields.
 
 ## Examples
 
-Please download the <tt>index.html</tt> to see some examples.
+http://opoloo.github.io/jquery_upload_preview/
 
 ***
 
