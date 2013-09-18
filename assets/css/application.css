@@ -35,11 +35,17 @@ h1 {
 pre {
   background: #bdc3c7;
   padding: 20px;
-  margin-left: 20px;
   display: inline-block;
   font-family: 'Source Code Pro', sans-serif;
   font-size: 14px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  overflow-x: scroll;
+  width: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
 
 hr {
   border-bottom: 1px solid #bdc3c7;
