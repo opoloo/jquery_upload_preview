@@ -16,7 +16,7 @@
       if (window.File && window.FileList && window.FileReader) {
         if (typeof($(settings.input_field)) !== 'undefined' && $(settings.input_field) !== null) {
           $(settings.input_field).change(function() {
-            var files = event.target.files;
+            var files = this.files;
 
             if (files.length > 0) {
               var file = files[0];
