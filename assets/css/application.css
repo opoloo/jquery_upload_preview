@@ -39,8 +39,8 @@ pre {
   font-family: 'Source Code Pro', sans-serif;
   font-size: 14px;
   border-radius: 15px;
-  width: 100%;
   overflow-x: scroll;
+  width: 100%;
   box-sizing: border-box;
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
