@@ -9,7 +9,8 @@
         label_field: ".image-label",
         label_default: "Choose File",
         label_selected: "Change File",
-        no_label: false
+        no_label: false,
+        success_callback : null,
       }, options);
 
       // Check if FileReader is available
@@ -47,6 +48,11 @@
 
               // Read the file
               reader.readAsDataURL(file);
+
+              // Success callback function call
+              if(!settings.success_callback) {
+                settings.success_callback();
+              }
             } else {
               if (settings.no_label == false) {
                 // Change label
