@@ -50,7 +50,7 @@
               reader.readAsDataURL(file);
 
               // Success callback function call
-              if(!settings.success_callback) {
+              if(settings.success_callback) {
                 settings.success_callback();
               }
             } else {
