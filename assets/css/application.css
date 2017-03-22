@@ -51,20 +51,20 @@ hr {
   border-bottom: 1px solid #bdc3c7;
   margin: 30px 0; }
 
-#image-preview {
+#image-preview, #callback-preview {
   width: 400px;
   height: 400px;
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
   color: #ecf0f1; }
-  #image-preview input {
+  #image-preview input, #callback-preview input {
     line-height: 200px;
     font-size: 200px;
     position: absolute;
     opacity: 0;
     z-index: 10; }
-  #image-preview label {
+  #image-preview label, #callback-preview label {
     position: absolute;
     z-index: 5;
     opacity: 0.8;

@@ -18,6 +18,15 @@
         preview_box: "#audio-preview",
         no_label: true
       });
+
+      $.uploadPreview({
+        input_field: "#callback-upload",
+        preview_box: "#callback-preview",
+        label_field: "#callback-label",
+        success_callback: function() {
+          alert("File will now be previewed");
+        }
+      });
     });
     </script>
     <link rel="stylesheet" href="assets/css/application.css" type="text/css" />
@@ -142,6 +151,29 @@ $(document).ready(function() {
       <input type="file" name="image" id="image-upload" />
     </div>
     
+    <hr />
+
+    <h2>Callback Example</h2>
+<pre>
+&lt;script type="text/javascript"&gt;
+$(document).ready(function() {
+  $.uploadPreview({
+    input_field: "#callback-upload",
+    preview_box: "#callback-preview",
+    label_field: "#callback-label",
+    success_callback: function() {
+      alert("File will now be previewed");
+    }
+  });
+});
+&lt;/script&gt;
+</pre>
+
+    <div id="callback-preview">
+      <label for="callback-upload" id="callback-label">Choose File</label>
+      <input type="file" name="image" id="callback-upload" />
+    </div>
+
     <hr />
 
     <h2>Audio File Example</h2>
